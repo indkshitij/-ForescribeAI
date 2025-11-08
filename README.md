@@ -8,6 +8,7 @@ A fully responsive, accessible, and animated frontend built using **Next.js (Typ
 ## 🚀 Live Demo
 
 **Vercel Deployment:** [https://forescribe-fzal87ovs-kshitij-singhs-projects-b6b0888b.vercel.app/](https://forescribe-fzal87ovs-kshitij-singhs-projects-b6b0888b.vercel.app/)
+
 **GitHub Repository:** [https://github.com/indkshitij/-ForescribeAI](https://github.com/indkshitij/-ForescribeAI)
 
 ---
