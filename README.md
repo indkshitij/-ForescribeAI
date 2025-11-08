@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🧠 Forescribe AI – Frontend Assignment
 
-First, run the development server:
+A fully responsive, accessible, and animated frontend built using **Next.js (TypeScript)** and **TailwindCSS**, inspired by the provided Figma design and Framer Motion interactions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Live Demo
+
+**Vercel Deployment:** [https://forescribe-fzal87ovs-kshitij-singhs-projects-b6b0888b.vercel.app/](https://forescribe-fzal87ovs-kshitij-singhs-projects-b6b0888b.vercel.app/)
+**GitHub Repository:** [https://github.com/indkshitij/-ForescribeAI](https://github.com/indkshitij/-ForescribeAI)
+
+---
+
+## 📂 Directory Structure
+
+```
+src/
+ ├── app/
+ │   ├── hooks/                   # Custom React hooks (e.g., dark mode)
+ │   ├── privacy-policy/          # Privacy Policy page
+ │   ├── term-and-conditions/     # Terms & Conditions page
+ │   ├── favicon.ico              # App icon
+ │   ├── globals.css              # Global styles and Tailwind theme setup
+ │   ├── layout.tsx               # Root layout and metadata
+ │   └── page.tsx                 # Home page
+ │
+ ├── assets/
+ │   ├── CardImg/                 # Card images and assets
+ │   └── LogoImg/                 # Logo assets (PNG, GIF)
+ │
+ ├── components/
+ │   ├── Authentication/          # Login UI
+ │   ├── Branding/                # Logo components
+ │   ├── Buttons/                 # Button components
+ │   ├── Cards/                   # InfoCard and related UI
+ │   ├── DarkMode/                # Dark mode toggler
+ │   └── Policy/                  # Policy-related reusable elements
+ │
+ └── utils/
+     └── CardData.ts              # Static card data configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository**
 
-## Learn More
+   ```bash
+   git clone https://github.com/indkshitij/-ForescribeAI.git
+   cd -ForescribeAI
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the development server**
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Open your browser**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 🧩 Pages Implemented
+
+* **Home Page:** `/`
+* **Privacy Policy Page:** `/privacy-policy`
+* **Terms & Conditions Page:** `/term-and-conditions`
+
+---
+
+## ✨ Features
+
+* **Responsive Design:** Works seamlessly across all screen sizes.
+* **Smooth Animations:** Implemented with Framer Motion (page transitions, hover effects, and content reveal).
+* **Dark Mode:** Custom dark theme implemented with Tailwind CSS and local storage persistence.
+* **Accessibility:** Semantic HTML, ARIA roles, and proper contrast.
+* **Optimized Assets:** Images compressed and lazy-loaded for performance.
+* **Created Two Pages:** Privacy Policy and Terms & Conditions.
+* **Created Modular and Reusable Components:** Added favicon and metadata for better SEO and presentation.
+
+---
+
+## 🧠 Assumptions Made
+
+* The UI follows the provided Figma design closely, with animation adjustments for smoother performance.
+* Dark mode was implemented using a lightweight custom hook with localStorage for theme persistence.
+
+---
+
+## 🧑‍💻 Tech Stack
+
+* **Framework:** Next.js 14 (App Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
+* **Icons:** React Icons
+* **Deployment:** Vercel
+
+---
+
+✅ **Developed by [Kshitij Singh](https://github.com/indkshitij)**
